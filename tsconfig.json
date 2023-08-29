@@ -24,6 +24,8 @@
     ],
     "useDefineForClassFields": false
   },
+  "paths": {
+  },
   "angularCompilerOptions": {
     "enableI18nLegacyMessageIdFormat": false,
     "strictInjectionParameters": true,
