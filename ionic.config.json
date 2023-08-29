@@ -1,0 +1,7 @@
+{
+  "name": "unicrom",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
