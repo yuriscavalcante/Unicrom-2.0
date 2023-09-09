@@ -1,0 +1,40 @@
+.container {
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #2b096f;
+  gap: 65px;
+  .logo {
+    width: 50vw;
+    height: 25vh;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #000;
+  }
+  .form {
+    display: flex;
+    flex-direction: column;
+    gap: 35px;
+    ion-item {
+      --background: #fff;
+      border: 1px solid #5e096f;
+      border-radius: 20px;
+      ion-input {
+        --color: #5e096f;
+        --background: #fff;
+      }
+    }
+    .login-button {
+      --background: #5e096f;
+      --background-activated: #4b0759;
+    }
+    a {
+      color: #fff;
+    }
+  }
+}
